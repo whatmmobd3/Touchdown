@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB2AD7D7271072FA005830D2 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AD7D6271072FA005830D2 /* CategoryModel.swift */; };
+		FB2AD7D9271073E1005830D2 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AD7D8271073E1005830D2 /* CategoryItemView.swift */; };
+		FB2AD7DB271075D7005830D2 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AD7DA271075D7005830D2 /* CategoryGridView.swift */; };
+		FB2AD7DD271079FC005830D2 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AD7DC271079FC005830D2 /* SectionView.swift */; };
 		FB4245732710620200E6EA8B /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4245722710620200E6EA8B /* PlayerModel.swift */; };
 		FB4245752710625F00E6EA8B /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4245742710625F00E6EA8B /* CodeableBundleExtension.swift */; };
 		FB4245772710639700E6EA8B /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4245762710639600E6EA8B /* FeaturedItemView.swift */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB2AD7D6271072FA005830D2 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		FB2AD7D8271073E1005830D2 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		FB2AD7DA271075D7005830D2 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		FB2AD7DC271079FC005830D2 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		FB4245722710620200E6EA8B /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		FB4245742710625F00E6EA8B /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
 		FB4245762710639600E6EA8B /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
@@ -120,7 +128,6 @@
 			children = (
 				FB7FA625271043A6000C982D /* Home */,
 				FB7FA6242710439B000C982D /* Detail */,
-				FB4245722710620200E6EA8B /* PlayerModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -140,6 +147,9 @@
 				FB7FA63127104CD9000C982D /* LogoView.swift */,
 				FB4245762710639600E6EA8B /* FeaturedItemView.swift */,
 				FB4245782710671A00E6EA8B /* FeaturedTabView.swift */,
+				FB2AD7D8271073E1005830D2 /* CategoryItemView.swift */,
+				FB2AD7DA271075D7005830D2 /* CategoryGridView.swift */,
+				FB2AD7DC271079FC005830D2 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -155,6 +165,8 @@
 		FB7FA627271043E7000C982D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FB4245722710620200E6EA8B /* PlayerModel.swift */,
+				FB2AD7D6271072FA005830D2 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,7 +260,11 @@
 				FB4245772710639700E6EA8B /* FeaturedItemView.swift in Sources */,
 				FB7FA62A2710445A000C982D /* Constant.swift in Sources */,
 				FB7FA62E27104B15000C982D /* NavigationBarView.swift in Sources */,
+				FB2AD7DB271075D7005830D2 /* CategoryGridView.swift in Sources */,
+				FB2AD7D7271072FA005830D2 /* CategoryModel.swift in Sources */,
 				FB4245752710625F00E6EA8B /* CodeableBundleExtension.swift in Sources */,
+				FB2AD7DD271079FC005830D2 /* SectionView.swift in Sources */,
+				FB2AD7D9271073E1005830D2 /* CategoryItemView.swift in Sources */,
 				FB4245792710671A00E6EA8B /* FeaturedTabView.swift in Sources */,
 				FB4245732710620200E6EA8B /* PlayerModel.swift in Sources */,
 			);

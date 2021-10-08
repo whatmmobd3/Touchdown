@@ -1,6 +1,4 @@
-
 import SwiftUI
-//test
 
 struct ContentView: View {
     var body: some View {
@@ -17,6 +15,7 @@ struct ContentView: View {
                         FeaturedTabView()
                             .frame(width: 450, height: 200)
                             .padding(.vertical, 20)
+                        CategoryGridView()
                         FooterView()
                             .padding(.horizontal)
       
