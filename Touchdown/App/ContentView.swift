@@ -4,6 +4,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            //wtih notch
             VStack{
                 NavigationBarView()
                     .padding(.horizontal, 10)
