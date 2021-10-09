@@ -7,6 +7,6 @@ Optinal
 sampleProduct: Product = products[0]
 var selectedProduct: Product?
 
-Text(sampleProduct.name)
+Text(shop.selectedProduct.name)
 Text(shop.selectedProduct?.name ?? sampleProduct.name)
 #most important
