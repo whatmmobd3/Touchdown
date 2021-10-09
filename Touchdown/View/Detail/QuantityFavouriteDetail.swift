@@ -14,15 +14,15 @@ struct QuantityFavouriteDetail: View {
             Text("\(counter)")
                 .fontWeight(.semibold)
                 .frame(minWidth: 36)
-            Button(action: {}, label: {
-                Image(systemName: "plus")
-            })
-            Spacer()
             Button(action: {
                 if counter < 100 {
                     counter += 1
                 }
             }, label: {
+                Image(systemName: "plus")
+            })
+            Spacer()
+            Button(action: {}, label: {
                 Image(systemName: "heart.circle")
             })
                 .foregroundColor(.pink)
